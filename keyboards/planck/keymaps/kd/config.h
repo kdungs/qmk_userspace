@@ -1,0 +1,16 @@
+#pragma once
+
+// Lighting
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_DEFAULT_HUE 169  // Blue
+
+// Sound
+#ifdef AUDIO_ENABLE
+//#define STARTUP_SONG SONG(USSR_ANTHEM)
+#define STARTUP_SONG SONG(NO_SOUND)
+//#define AUDIO_CLICKY
+//#define GOODBYE_SONG SONG(GOODBYE_SOUND)
+#define MIDI_BASIC
+#endif
+
+#define ENCODER_RESOLUTION 4
