@@ -1,4 +1,9 @@
 {
-    "userspace_version": "1.0",
-    "build_targets": []
+    "userspace_version": "1.1",
+    "build_targets": [
+        ["ergodox_ez/base", "kd"],
+        ["keebio/iris/rev6", "kd"],
+        ["keebio/iris/rev8", "kd"],
+        ["planck/rev6_drop", "kd"]
+    ]
 }
